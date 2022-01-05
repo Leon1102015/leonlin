@@ -1,0 +1,120 @@
+body{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.15em;
+    background-color: #efefef;
+}
+
+#page{
+    max-width: 920px;
+    min-width: 720px;
+    margin: auto;
+    padding: 0px 0px 400px 0px;
+    border: 4px double #000;
+    background-color: #ffffff;
+}
+#logo{
+    width: 150px;
+    margin: 10px auto 25px auto;
+}
+#logo img{
+    width: 60px;
+    margin: 0% 60px 0px;
+}
+
+#navi{
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+#navi button{
+    color: cadetblue;
+    background-color:#ffffff ;
+    border: 0;
+    font-size: 20px;
+    padding: 7px 30px;
+    text-decoration: none;
+
+}
+#navi button:hover{
+    color: #343f52;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 10px #7a89b6, -1px -1px 10px #7a89b6;
+    box-shadow: 1px 1px 5px #7a89b6, -1px -1px 5px #7a89b6;
+}
+
+#me img{
+    width: 50%;
+    margin-left:3%;
+    margin-top: 5%;
+}
+#con{
+    padding: 2rem;
+    background-image: url(img/dance03.jpeg);
+    background-color: #444;
+    background-blend-mode: multiply;
+    color: white;
+    text-align: left;
+}
+#box1{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+#box1::after{
+    content: "";
+  position: absolute;
+  top: -0.25rem;
+  left: -2rem;
+  bottom: -0.25rem;
+  width: calc(100% + 4rem);
+  background: #f74e37;
+  z-index: -1;
+  -webkit-transform: scaleX(0.075);
+          transform: scaleX(0.075);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+#con:hover #box1::after{
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+#box2{
+    position: relative;
+  z-index: 1;
+  color: transparent;
+  margin: 0;
+  transition: color 150ms 350ms;
+}
+#box2::after{
+    content: "";
+  position: absolute;
+  top: -0.75rem;
+  bottom: -0.75rem;
+  left: -0.75em;
+  right: -0.75em;
+  background: white;
+  z-index: -1;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  transition: -webkit-transform 250ms ease-in 250ms;
+  transition: transform 250ms ease-in 250ms;
+  transition: transform 250ms ease-in 250ms, -webkit-transform 250ms ease-in 250ms;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+#con:hover #box2{
+    color: #333;
+}
+#con:hover #box2::after{
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}

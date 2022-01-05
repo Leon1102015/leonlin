@@ -1,0 +1,66 @@
+body{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.15em;
+    background-color: #efefef;
+}
+
+#page{
+    max-width: 920px;
+    min-width: 720px;
+    margin: auto;
+    padding: 0px 0px 400px 0px;
+    border: 4px double #000;
+    background-color: #ffffff;
+}
+#logo{
+    width: 150px;
+    margin: 10px auto 25px auto;
+}
+#logo img{
+    width: 60px;
+    margin: 0% 60px 0px;
+}
+
+#navi{
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+#navi button{
+    color: cadetblue;
+    background-color:#ffffff ;
+    border: 0;
+    font-size: 20px;
+    padding: 7px 30px;
+    text-decoration: none;
+
+}
+#navi button:hover{
+    color: #343f52;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 10px #7a89b6, -1px -1px 10px #7a89b6;
+    box-shadow: 1px 1px 5px #7a89b6, -1px -1px 5px #7a89b6;
+}
+#picture{
+    width: 100%;
+    text-align: center;
+    height: 552px;
+}
+#picture img{
+    height: 180px;
+    margin-right: 15px;
+    box-shadow: 0.5px 0.5px 10px grey;
+    transition: height 0.5s;
+    transition-timing-function: cubic-bezier(0.1, 1.0);
+}
+#picture img:hover {
+    height: 220px;
+    box-shadow: 3px 3px 10px grey;
+    transition: height 0.5s;
+    transition-timing-function: cubic-bezier(0.1, 1.0);
+}

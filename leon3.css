@@ -15,11 +15,11 @@ body{
 }
 #logo{
     width: 150px;
-    margin: 10px auto 25px auto;
+    margin: 10px 50px 25px 210px;
 }
 #logo img{
-    width: 60px;
-    margin: 0% 60px 0px;
+    width: 500px;
+    margin: 0 auto;
 }
 
 #navi{

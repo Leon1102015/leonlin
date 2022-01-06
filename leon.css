@@ -57,8 +57,18 @@ p{
     height: 90%;
     margin-left: 15%;
 }
-#load{
-    width: 70%;
+#among{
+    text-align: center;
+    margin-top: 150px;
+}
+#orange{
+    width: 200px;
     height: 90%;
-    margin-left: 15%;
+    transition-duration: 10000ms;
+    transition-property: all;
+    
+}
+#orange:hover{
+    transform: rotate(360deg);
+    transition-property: all;
 }

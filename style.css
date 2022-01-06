@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    min-height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+.growing{
+    position: relative;
+    width: 750px;
+    height: 750px;
+}
+.growing span{
+    position: relative;
+    top: calc(80px * var(--i));
+    left: calc(80px * var(--i));
+    bottom: calc(80px * var(--i));
+    right: calc(80px * var(--i));
+}
+.growing span:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -8px;
+    width: 15px;
+    height: 15px;
+    background: #f00;
+    border-radius: 50%;
+}

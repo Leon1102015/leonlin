@@ -46,3 +46,56 @@ body{
     -webkit-box-shadow: 1px 1px 10px #7a89b6, -1px -1px 10px #7a89b6;
     box-shadow: 1px 1px 5px #7a89b6, -1px -1px 5px #7a89b6;
 }
+#all {
+    height: 374px;
+}
+
+#app {
+    margin-top: 200px;
+    text-align: center;
+}
+#gm{
+    width: 80px;
+    transition: width 0.3s;
+    transition-timing-function: cubic-bezier(0.1, 1.0);
+    margin-right: 60px;
+    transition-duration: 1000ms;
+    transition-property: all;
+}
+#gm:hover{
+    width: 90px;
+    transition: width 0.3s;
+    transition-timing-function: cubic-bezier(0.1, 1.0);
+    transform: rotate(45deg);
+    transition-property: all;
+}
+#line{
+    width: 80px;
+    transition: width 0.3s;
+    transition-timing-function: cubic-bezier(0.1, 1.0);
+    margin-right: 60px;
+    transition-duration: 1000ms;
+    transition-property: all;
+}
+#line:hover{
+    width: 90px;
+    transition: width 0.3s;
+    transition-timing-function: cubic-bezier(0.1, 1.0);
+    transform: rotate(45deg);
+    transition-property: all;
+}
+#ig{
+    width: 80px;
+    transition: width 0.3s;
+    transition-timing-function: cubic-bezier(0.1, 1.0);
+    margin-right: 60px;
+    transition-duration: 1000ms;
+    transition-property: all;
+}
+#ig:hover{
+    width: 90px;
+    transition: width 0.3s;
+    transition-timing-function: cubic-bezier(0.1, 1.0);
+    transform: rotate(45deg);
+    transition-property: all;
+}
